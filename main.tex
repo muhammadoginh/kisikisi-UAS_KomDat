@@ -1,5 +1,7 @@
 \documentclass[oneside]{book}
 \usepackage{xcolor}
+\usepackage{graphicx}
+\usepackage{subcaption}
 
 
 \newcommand{\exercisename}{Latihan}
@@ -509,10 +511,22 @@
 
 \begin{solution}
   \begin{itemize}
-    \item[a.] DS-1 overhead = 1.544 Mbps %- (24  \times 64 kbps) = 8 kbps.
-    \item[b.] DS-2 overhead = 6.312 Mbps % − (4  \times 1.544 Mbps) = 136 kbps
-    \item[c.] DS-3 overhead = 44.376 Mbps % − (7  \times 6.312 Mbps) = 192 kbps. 
-    \item[d.] DS-4 overhead = 274.176 Mbps % − (6  \times 44.376 Mbps) = 7.92 Mbps.
+    \item[a.] DS-1 Overload = 
+    \begin{math}
+       1.544 Mbps - (24 \times 64 kbps) = 8 kbps 
+    \end{math}
+   \item [b.] DS-2 Overload =
+        \begin{math}
+          6.312 Mbps - (4 \times 1.544 kbps) = 136 kbps 
+        \end{math}
+   \item [c.] DS-3 Overload =
+        \begin{math}
+          44.376 Mbps - (7 \times 6.312 kbps) = 192 kbps 
+        \end{math}
+   \item [d.] DS-4 Overload =
+   \begin{math}
+    274.176 Mbps - (6 \times 44.376 kbps) = 7.92 Mbps 
+  \end{math}
   \end{itemize}
 \end{solution}
 
