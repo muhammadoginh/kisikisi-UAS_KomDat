@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.6.24)  28 JUN 2022 17:16
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.6.24)  28 JUN 2022 17:40
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -87,20 +87,20 @@ File: l3backend-pdftex.def 2022-02-07 L3 backend support: PDF output (pdfTeX)
 ) (main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
  (C:\Program Files\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count266
@@ -130,9 +130,9 @@ Chapter 1.
 {C:/Users/hp/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}] [2]
 Chapter 2.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 243.
+(Font)              <7> on input line 244.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 243.
+(Font)              <5> on input line 244.
 [3
 
 ] [4]
@@ -140,23 +140,60 @@ Chapter 3.
 [5
 
 ]
+<./picture//soal12.png, id=25, 521.69907pt x 158.84344pt>
+File: ./picture//soal12.png Graphic file (type png)
+<use ./picture//soal12.png>
+Package pdftex.def Info: ./picture//soal12.png  used on input line 487.
+(pdftex.def)             Requested size: 310.4979pt x 94.53847pt.
+<./picture//solusi12.png, id=27, 539.76656pt x 140.77594pt>
+File: ./picture//solusi12.png Graphic file (type png)
+<use ./picture//solusi12.png>
+Package pdftex.def Info: ./picture//solusi12.png  used on input line 496.
+(pdftex.def)             Requested size: 310.4979pt x 80.98204pt.
+<./picture//soal13.png, id=28, 664.73344pt x 146.79843pt>
+File: ./picture//soal13.png Graphic file (type png)
+<use ./picture//soal13.png>
+Package pdftex.def Info: ./picture//soal13.png  used on input line 508.
+(pdftex.def)             Requested size: 310.4979pt x 68.56967pt.
+<./picture//solusi13.png, id=29, 532.23843pt x 136.25906pt>
+File: ./picture//solusi13.png Graphic file (type png)
+<use ./picture//solusi13.png>
+Package pdftex.def Info: ./picture//solusi13.png  used on input line 520.
+(pdftex.def)             Requested size: 310.4979pt x 79.49187pt.
+
 Overfull \hbox (33.65471pt too wide) has occurred while \output is active
 \OT1/cmr/m/sl/10 CHAPTER 3.  BANDWIDTH UTILIZATION: MULTIPLEXING AND SPREADING \OT1/cmr/m/n/10 6
  []
 
-[6] (main.aux) ) 
+[6 <./picture//soal12.png> <./picture//solusi12.png> <./picture//soal13.png>]
+<./picture//figure6.23.png, id=36, 690.32906pt x 281.55188pt>
+File: ./picture//figure6.23.png Graphic file (type png)
+<use ./picture//figure6.23.png>
+Package pdftex.def Info: ./picture//figure6.23.png  used on input line 529.
+(pdftex.def)             Requested size: 310.4979pt x 126.63702pt.
+
+Overfull \hbox (33.65471pt too wide) has occurred while \output is active
+\OT1/cmr/m/sl/10 CHAPTER 3.  BANDWIDTH UTILIZATION: MULTIPLEXING AND SPREADING \OT1/cmr/m/n/10 7
+ []
+
+[7 <./picture//solusi13.png> <./picture//figure6.23.png>]
+Overfull \hbox (33.65471pt too wide) has occurred while \output is active
+\OT1/cmr/m/sl/10 CHAPTER 3.  BANDWIDTH UTILIZATION: MULTIPLEXING AND SPREADING \OT1/cmr/m/n/10 8
+ []
+
+[8] (main.aux) ) 
 Here is how much of TeX's memory you used:
- 3204 strings out of 478582
- 54213 string characters out of 2854168
- 352868 words of memory out of 3000000
- 21415 multiletter control sequences out of 15000+600000
+ 3252 strings out of 478582
+ 55347 string characters out of 2854168
+ 351868 words of memory out of 3000000
+ 21456 multiletter control sequences out of 15000+600000
  471179 words of font info for 34 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 67i,5n,77p,328b,154s stack positions out of 10000i,1000n,20000p,200000b,80000s
+ 67i,7n,77p,328b,352s stack positions out of 10000i,1000n,20000p,200000b,80000s
 <C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsl10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on main.pdf (6 pages, 114807 bytes).
+Output written on main.pdf (8 pages, 191843 bytes).
 PDF statistics:
- 61 PDF objects out of 1000 (max. 8388607)
+ 80 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 26 words of extra memory for PDF output out of 10000 (max. 10000000)
 
