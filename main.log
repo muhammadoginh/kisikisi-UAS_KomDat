@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.7) (preloaded format=pdflatex 2022.5.22)  28 JUN 2022 08:19
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.7) (preloaded format=pdflatex 2022.5.22)  28 JUN 2022 08:57
 entering extended mode
 **"d:/ITEBA/Kuliah/TK4306 Komunikasi Data/tugas/reguler/persiapan uas/main.tex"
 (d:/ITEBA/Kuliah/TK4306 Komunikasi Data/tugas/reguler/persiapan uas/main.tex
@@ -79,31 +79,36 @@ Chapter 1.
 [1
 
 
-{C:/Users/muhammadoginh/AppData/Local/MiKTeX/pdftex/config/pdftex.map}]
+{C:/Users/muhammadoginh/AppData/Local/MiKTeX/pdftex/config/pdftex.map}] [2]
 Chapter 2.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 44.
+(Font)              <7> on input line 241.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 44.
-[2
-
-]
-Chapter 3.
+(Font)              <5> on input line 241.
 [3
 
-] (main.aux) ) 
+] [4]
+Chapter 3.
+[5
+
+]
+Overfull \hbox (33.65471pt too wide) has occurred while \output is active
+\OT1/cmr/m/sl/10 CHAPTER 3.  BANDWIDTH UTILIZATION: MULTIPLEXING AND SPREADING \OT1/cmr/m/n/10 6
+ []
+
+[6] (main.aux) ) 
 Here is how much of TeX's memory you used:
- 1390 strings out of 478870
- 19361 string characters out of 2858669
- 317751 words of memory out of 3000000
- 19365 multiletter control sequences out of 15000+600000
- 404997 words of font info for 32 fonts, out of 8000000 for 9000
+ 1392 strings out of 478870
+ 19382 string characters out of 2858669
+ 319751 words of memory out of 3000000
+ 19366 multiletter control sequences out of 15000+600000
+ 405350 words of font info for 33 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 34i,5n,47p,238b,128s stack positions out of 5000i,500n,10000p,200000b,80000s
-<C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on main.pdf (3 pages, 89136 bytes).
+ 34i,5n,47p,238b,152s stack positions out of 5000i,500n,10000p,200000b,80000s
+<C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsl10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb>
+Output written on main.pdf (6 pages, 107728 bytes).
 PDF statistics:
- 47 PDF objects out of 1000 (max. 8388607)
+ 61 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
