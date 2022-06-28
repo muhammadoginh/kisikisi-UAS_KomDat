@@ -1,0 +1,72 @@
+\documentclass[oneside]{book}
+\usepackage{xcolor}
+
+
+\newcommand{\exercisename}{Latihan}
+\newcommand{\solutionname}{Solusi}
+
+\definecolor{main}{RGB}{0,120,2}
+
+%% Exercise with counter
+\newcounter{exer}[chapter]
+\setcounter{exer}{0}
+\renewcommand{\theexer}{\thechapter.\arabic{exer}}
+\newenvironment{exercise}[1][]{
+  \refstepcounter{exer}
+  \par\noindent\textbf{\color{main}{\exercisename} \theexer #1 }\rmfamily}{
+  \par\ignorespacesafterend}
+
+\newenvironment{solution}{\par\noindent\textbf{\color{main}\solutionname} \em}{\par}
+
+\begin{document}
+
+\chapter{Digital Transmission}
+
+\begin{exercise}
+  Contoh soal
+\end{exercise}
+
+\begin{solution}
+  Contoh solusi
+\end{solution}
+
+\chapter{Analog Transmission}
+
+\begin{exercise}
+  Calculate the baud rate for the given bit rate and type of modulation.
+  \begin{itemize}
+    \item[a.] 2000 bps, FSK
+    \item[b.] 4000 bps, ASK
+  \end{itemize}
+\end{exercise}
+
+\begin{solution}
+  We use the formula $S = (1/r) \times N$, but first we need to calculate the value of r for each case.
+  \begin{itemize}
+    \item[a.] $r = log_22 = 1 \quad \rightarrow \quad S = (1/1) \times (2000 \textnormal{ bps}) = 2000 \textnormal{ baud}$
+    \item[b.] 
+  \end{itemize}
+\end{solution}
+
+\vspace{12pt}
+
+\begin{exercise}
+  Contoh soal
+\end{exercise}
+
+\begin{solution}
+  Contoh solusi
+\end{solution}
+
+\chapter{Bandwidth Utilization: Multiplexing and Spreading}
+
+\begin{exercise}
+  Contoh soal
+\end{exercise}
+
+\begin{solution}
+  Contoh solusi
+\end{solution}
+
+\end{document}
+
