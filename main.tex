@@ -2,6 +2,10 @@
 \usepackage{xcolor}
 \usepackage{graphicx}
 \usepackage{subcaption}
+\usepackage[inline,shortlabels]{enumitem}
+\usepackage{multicol}
+\usepackage{multirow}
+\usepackage{booktabs,array,adjustbox}
 
 \graphicspath{{./picture/}}
 
@@ -69,41 +73,159 @@
 
 % Erwin Erikson 5-8
 \begin{exercise}
-  Contoh soal 5
+
+  Gambarlah grafik skema Manchester menggunakan masing-masing aliran data berikut, dengan asumsi bahwa level sinyal terakhir adalah positif. Dari grafik, tebak bandwidth untuk skema ini menggunakan jumlah rata-rata perubahan level sinyal.
+  \begin{enumerate}[a)]
+    \item 00000000
+    \item 11111111
+    \item 01010101
+    \item 00110011
+  \end{enumerate}
+
+  Bandingkan tebakan Anda dengan entri yang sesuai pada Tabel 1.1.
+
+  \begin{table}[htbp]
+    \begin{center}
+      \centerline{Tabel 1.1: Ringkasan skema pengkodean baris}
+      \begin{tabular}{|l|l|c|p{6cm}|}
+        \cline{1-4}
+        \multirow{2}{*}{Kategori}&\multirow{2}{*}{Skema}&\multicolumn{1}{c|}{Bandwidth}&\multirow{2}{*}{\centerline{Karakteristik}} \\
+        & &\multicolumn{1}{c|}{(rata-rata)}& \\
+        \cline{1-4}
+        Unipolar&NRZ&B=N/2&Mahal, tidak ada sinkronisasi otomatis jika panjang Os atau Is, DC \\
+        \cline{1-4}
+        \multirow{3}{*}{Unipolar}&NRZ-L&B=N/2&Tidak ada sinkronisasi sendiri jika Os panjang atau 1s, DC \\
+        \cline{2-4}
+        &NRZ-I&B=N/2&Tidak ada sinkronisasi otomatis selama S, DC \\
+        \cline{2-4}
+        &Biphase&B=N&Sinkronisasi diri, tidak ada DC, bandwidth tinggi \\
+        \cline{1-4}
+        Bipolar&AMI&B=N/2&Tidak ada sinkronisasi otomatis untuk OS lama, DC \\
+        \cline{1-4}
+        \multirow{3}{*}{Multilevel}&2BIQ&B=N/4&Tidak ada sinkronisasi sendiri untuk bit ganda yang sama panjang \\
+        \cline{2-4}
+        &8B6T&B=3N/4&Sinkronisasi diri, tidak ada DC \\
+        \cline{2-4}
+        &4D-PAM5&B=N/8&Sinkronisasi diri, tidak ada DC \\
+        \cline{1-4}
+        Multiline&MLT-3&B=N/3&Tidak ada sinkronisasi otomatis untuk Os yang lama \\
+        \cline{1-4}
+      \end{tabular}
+    \end{center}\vspace*{6px}
+  \end{table}\vspace*{8px}
+
 \end{exercise}
 
 \begin{solution}
-  Contoh solusi
+
+  Gambar grafik skema Manchester dapat dilihat pada Gambar 1.1.
+
+\begin{figure}[h]
+  \centering
+  \includegraphics[width=0.9\textwidth]{gbr_solusi_1_5.jpg}
+  \centerline{Gambar 1.1: Gambar grafik skema Manchester}\vspace*{2px}
+\end{figure}
+
+Bandwidth sebanding dengan (12,5 / 8) N yang berada dalam kisaran pada Tabel 1.1
+
+(B = N hingga B = 2N) untuk skema Manchester.
+
 \end{solution}
 
 \vspace{12pt}
 
 \begin{exercise}
-  Contoh soal
+
+  Gambarlah grafik skema diferensial Manchester menggunakan masing-masing aliran data berikut, dengan asumsi bahwa level sinyal terakhir adalah positif. Dari grafik, tebak bandwidth untuk skema ini menggunakan jumlah rata-rata perubahan level sinyal.
+  \begin{enumerate}[a)]
+    \item 00000000
+    \item 11111111
+    \item 01010101
+    \item 00110011
+  \end{enumerate}
+
+  Bandingkan tebakan Anda dengan entri yang sesuai pada Tabel 1.1.\vspace*{8px}
+
 \end{exercise}
 
 \begin{solution}
-  Contoh solusi
+
+  Gambar grafik skema diferensial Manchester dapat dilihat pada Gambar 1.2.
+
+\begin{figure}[h]
+  \centering
+  \includegraphics[width=0.9\textwidth]{gbr_solusi_1_6.jpg}
+  \centerline{Gambar 1.2: Gambar grafik skema diferensial Manchester}\vspace*{2px}
+\end{figure}
+
+Bandwidth sebanding dengan (12/8) N yang berada dalam kisaran pada Tabel 1.1
+
+(B = N ke 2N) untuk skema diferensial Manchester.
+
 \end{solution}
 
 \vspace{12pt}
 
 \begin{exercise}
-  Contoh soal
+
+  Gambarlah grafik skema 2B1Q menggunakan masing-masing aliran data berikut, dengan asumsi bahwa level sinyal terakhir adalah positif. Dari grafik, tebak bandwidth untuk skema ini menggunakan jumlah rata-rata perubahan level sinyal.
+  \begin{enumerate}[a)]
+    \item 0000000000000000
+    \item 1111111111111111
+    \item 0101010101010101
+    \item 0011001100110011
+  \end{enumerate}
+
+  Bandingkan tebakan Anda dengan entri yang sesuai pada Tabel 1.1.\vspace*{8px}
+
 \end{exercise}
 
 \begin{solution}
-  Contoh solusi
+
+  Gambar grafik skema 2B1Q dapat dilihat pada Gambar 1.3.
+
+\begin{figure}[h]
+  \centering
+  \includegraphics[width=0.9\textwidth]{gbr_solusi_1_7.jpg}
+  \centerline{Gambar 1.3: Gambar grafik skema 2B1Q}\vspace*{2px}
+\end{figure}
+
+Bandwidth sebanding dengan (5.25 / 16) N yang berada di dalam range pada Tabel 1.1
+
+(B = 0 hingga N/2) untuk 2B/1Q.
+
 \end{solution}
 
 \vspace{12pt}
 
 \begin{exercise}
-  Contoh soal
+
+  Gambarlah grafik skema MLT-3 menggunakan masing-masing aliran data berikut, dengan asumsi bahwa level sinyal terakhir adalah positif. Dari grafik, tebak bandwidth untuk skema ini menggunakan jumlah rata-rata perubahan level sinyal.
+  \begin{enumerate}[a)]
+    \item 00000000
+    \item 11111111
+    \item 01010101
+    \item 00011000
+  \end{enumerate}
+
+  Bandingkan tebakan Anda dengan entri yang sesuai pada Tabel 1.1.\vspace*{8px}
+
 \end{exercise}
 
 \begin{solution}
-  Contoh solusi
+
+  Gambar grafik skema MLT-3 dapat dilihat pada Gambar 1.3.
+
+\begin{figure}[h]
+  \centering
+  \includegraphics[width=0.9\textwidth]{gbr_solusi_1_7.jpg}
+  \centerline{Gambar 1.3: Gambar grafik skema MLT-3}\vspace*{2px}
+\end{figure}
+
+Bandwidth sebanding dengan (5.25/8) × N yang berada di dalam kisaran pada Tabel 1.1
+
+(B = 0 hingga N/2) untuk MLT-3.
+
 \end{solution}
 
 \vspace{12pt}
