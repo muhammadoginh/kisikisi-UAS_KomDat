@@ -486,41 +486,55 @@ Bandwidth sebanding dengan (5.25/8) × N yang berada di dalam kisaran pada Tabel
 
 % Hani Khairiyah 1-4
 \begin{exercise}
-  Contoh soal 1
+  Asumsikan bahwa saluran suara menempati bandwidth 4 kHz. Kita perlu multipleks 10 saluran suara dengan band penjaga 500 Hz menggunakan FDM. Hitung yang dibutuhkan bandwith?
 \end{exercise}
 
 \begin{solution}
-  Contoh solusi
+  Untuk multipleks 10 saluran suara, kita membutuhkan sembilan band penjaga. Bandwidth yang dibutuhkan kemudian B = (4 KHz) * 10 + (500 Hz) * 9 = 44,5 KHz
 \end{solution}
 
 \vspace{12pt}
 
 \begin{exercise}
-  Contoh soal
+  Kita perlu mengirimkan 100 saluran suara digital menggunakan saluran pass-band dari 20 KHz. Berapa rasio bit/Hz jika kita tidak menggunakan guard band?
 \end{exercise}
 
 \begin{solution}
-  Contoh solusi
+  Bandwidth yang dialokasikan untuk setiap saluran suara adalah 20 KHz / 100 = 200 Hz. Seperti yang kita lihat di bab sebelumnya, setiap saluran suara digital memiliki kecepatan data 64 Kbps (8000 sampel * 8 bit/sampel). Ini berarti bahwa teknik modulasi kami menggunakan 64.000/200 = 320 bit/Hz.
 \end{solution}
 
 \vspace{12pt}
 
 \begin{exercise}
-  Contoh soal
+  Dalam hierarki analog Gambar 6.9, temukan overhead bandwidth ekstra untuk guard
+band atau kontrol di setiap level hierarki grup, supergrup, grup master, dan
+kelompok jumbo.
 \end{exercise}
 
 \begin{solution}
-  Contoh solusi
+  a. Tingkat grup: overhead = 48 KHz (12 * 4 KHz) = 0 Hz
+  b. Tingkat supergrup: overhead = 240 KHz (5 * 48 KHz) = 0 Hz
+  c. Grup master: overhead = 2520 KHz (10 * 240 KHz) = 120 KHz
+  d. Grup Jumbo: overhead = 16,984 MHz (6 * 2,52 MHz) = 1,864 MHz.
 \end{solution}
 
 \vspace{12pt}
 
 \begin{exercise}
-  Contoh soal
+  Kita perlu menggunakan TDM sinkron dan menggabungkan 20 sumber digital, masing-masing 100 Kbps. Setiap slot keluaran membawa 1 bit dari setiap sumber digital, tetapi satu bit tambahan ditambahkan ke setiap frame untuk sinkronisasi. Jawab pertanyaan berikut
+  a. Berapa ukuran bingkai keluaran dalam bit?
+  b. Berapa kecepatan bingkai keluaran?
+  c. Berapa durasi frame output?
+  d. Berapa kecepatan data keluaran?
+  e. Berapa efisiensi sistem (rasio bit yang berguna dengan total bit).
 \end{exercise}
 
 \begin{solution}
-  Contoh solusi
+  a. Setiap bingkai keluaran membawa 1 bit dari setiap sumber ditambah satu bit tambahan untuk sinkronisasi. Ukuran bingkai = 20 * 1 + 1 = 21 bit.
+  b. Setiap frame membawa 1 bit dari setiap sumber. Kecepatan bingkai = 100.000 bingkai/dtk.\
+  c. Durasi bingkai = 1 /(kecepatan bingkai) = 1/100.000 = 10 s
+  d. Kecepatan data = (100.000 bingkai/dtk) * (21 bit/bingkai) = 2,1 Mbps
+  e. Dalam setiap frame 20 bit dari 21 berguna. Efisiensi = 20/21= 95%
 \end{solution}
 
 \vspace{12pt}
