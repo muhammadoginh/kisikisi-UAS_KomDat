@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.6) (preloaded format=pdflatex 2021.6.16)  28 JUN 2022 15:49
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.6) (preloaded format=pdflatex 2021.6.16)  1 JUL 2022 16:14
 entering extended mode
 **c:/Users/useur/OneDrive/Documents/GitHub/kisikisi-UAS_KomDat/main.tex
 (c:/Users/useur/OneDrive/Documents/GitHub/kisikisi-UAS_KomDat/main.tex
@@ -96,19 +96,24 @@ Overfull \hbox (33.65471pt too wide) has occurred while \output is active
 \OT1/cmr/m/sl/10 CHAPTER 3.  BANDWIDTH UTILIZATION: MULTIPLEXING AND SPREADING \OT1/cmr/m/n/10 6
  []
 
-[6] (main.aux) ) 
+[6]
+Overfull \hbox (33.65471pt too wide) has occurred while \output is active
+\OT1/cmr/m/sl/10 CHAPTER 3.  BANDWIDTH UTILIZATION: MULTIPLEXING AND SPREADING \OT1/cmr/m/n/10 7
+ []
+
+[7] (main.aux) ) 
 Here is how much of TeX's memory you used:
- 1392 strings out of 478864
- 19723 string characters out of 2848660
- 322930 words of memory out of 3000000
- 19374 multiletter control sequences out of 15000+600000
- 405350 words of font info for 33 fonts, out of 8000000 for 9000
+ 1398 strings out of 478864
+ 19795 string characters out of 2848660
+ 324930 words of memory out of 3000000
+ 19378 multiletter control sequences out of 15000+600000
+ 406062 words of font info for 35 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 34i,5n,47p,230b,152s stack positions out of 5000i,500n,10000p,200000b,80000s
-<C:/Users/useur/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/useur/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/useur/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/useur/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/useur/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/useur/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsl10.pfb><C:/Users/useur/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/useur/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on main.pdf (6 pages, 114023 bytes).
+ 34i,5n,47p,451b,243s stack positions out of 5000i,500n,10000p,200000b,80000s
+ <C:\Users\useur\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcti1000.pk> <C:\Users\useur\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1000.pk><C:/Users/useur/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/useur/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/useur/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/useur/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/useur/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/useur/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsl10.pfb><C:/Users/useur/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/useur/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb>
+Output written on main.pdf (7 pages, 123294 bytes).
 PDF statistics:
- 61 PDF objects out of 1000 (max. 8388607)
+ 76 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
