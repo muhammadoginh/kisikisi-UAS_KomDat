@@ -404,41 +404,95 @@ Bandwidth sebanding dengan (5.25/8) × N yang berada di dalam kisaran pada Tabel
 
 % R.M. Fikri Ihsan Kurniawan 5-8
 \begin{exercise}
-  Contoh soal 5
+  Gambarlah diagram konstelasi untuk kasus-kasus berikut. Temukan amplitudo puncak nilai untuk setiap kasus dan tentukan jenis modulasi (ASK, FSK, PSK, atau QAM).Angka-angka dalam tanda kurung menentukan nilai I dan Q masing-masing.
+  \begin{itemize}
+    \item[a.] Dua titik di (2, 0) dan (3, 0).
+    \item[b.] Dua titik di (3, 0) dan (-3, 0).
+    \item[c.] Empat poin di (2, 2), (-2, 2), (-2, -2), dan (2, -2).
+    \item[d.] Dua titik di (0 , 2) dan (0, -2).
+  \end{itemize}
+    
 \end{exercise}
 
 \begin{solution}
-  Contoh solusi
+  \begin{figure}[ht]
+  \centering
+  \includegraphics[width=0.9\textwidth]{picture/figure-5.2.png}
+  \centerline{Solution of Latihan 2.5}\vspace*{2px}
+\end{figure}
+\begin{itemize}
+    \item[a.] Ada dua amplitudo puncak keduanya dengan fase yang sama (0 derajat). Nilai amplitudo puncak adalah $A_1$ = 2 (jarak antara titik pertama dan titik asal) dan $A_2$ = 3 (jarak antara titik kedua dan titik asal). 
+    \item[b.] Hanya ada satu amplitudo puncak (3). Jarak antara masing-masing titik dan asalnya adalah 3. Namun, kami memiliki dua fase, 0 dan 180 derajat.
+    \item[c.] Ini dapat berupa QPSK (satu amplitudo, empat fase) atau 4-QAM (satu amplitudo dan empat fase). Amplitudo adalah jarak antara titik dan asal, yaitu $ (2^2 + 2^2)^\frac{1}{2} $ = 2,83.
+    \item[d.] Ini juga BPSK. Amplitudo puncaknya adalah 2, tetapi kali ini fasenya adalah 90 dan 270 derajat.
+  \end{itemize} 
 \end{solution}
 
 \vspace{12pt}
 
 \begin{exercise}
-  Contoh soal
+  Berapa banyak bit per baud yang dapat kita kirim dalam setiap kasus berikut jika sinyal: rasi bintang memiliki salah satu dari jumlah titik berikut?
+  \begin{itemize}
+    \item[a.] 2
+    \item[b.] 4
+    \item[c.] 16
+    \item[d.] 1024
+  \end{itemize}
 \end{exercise}
 
 \begin{solution}
-  Contoh solusi
+  Jumlah titik menentukan jumlah level, L. Jumlah bit per baud
+adalah nilai r. Oleh karena itu, kami menggunakan rumus r = log$_2$L untuk setiap kasus.
+\begin{itemize}
+    \item[a.] $ log_2 $2 = 1
+    \item[b.] $ log_2 $4 = 2
+    \item[c.] $ log_2 $16 = 4
+    \item[d.] $ log_2 $1024 = 10
+ \end{itemize}
 \end{solution}
 
 \vspace{12pt}
 
 \begin{exercise}
-  Contoh soal
+ Berapa bandwidth yang dibutuhkan untuk kasus berikut jika kita perlu mengirim 4000 bps? Misalkan d = 1.
+  \begin{itemize}
+    \item[a.] ASK
+    \item[b.] QPSK
+    \item[c.] 16-QAM
+    \item[d.] 64-QAM
+  \end{itemize}
 \end{exercise}
 
 \begin{solution}
-  Contoh solusi
+  Kami menggunakan rumus B = (1 + d) × (1/r) × N, tetapi pertama-tama kita perlu menghitung nilai r untuk setiap kasus.
+  \begin{itemize}
+    \item[a.] r = 1 → B = (1 + 1) × (1/1) × (4000 bps) = 8000 Hz
+    \item[b.] r = 1 → B = (1 + 1) × (1/1) × (4000 bps) + 4 KHz = 8000 Hz
+    \item[c.] r = 2 → B = (1 + 1) × (1/2) × (4000 bps) = 2000 Hz
+    \item[d.] r = 4 → B = (1 + 1) × (1/4) × (4000 bps) = 1000 Hz
+ \end{itemize}
 \end{solution}
 
 \vspace{12pt}
 
 \begin{exercise}
-  Contoh soal
+  Saluran telepon memiliki bandwidth 4 KHz. Berapa jumlah bit maksimum yang kami? dapat mengirim menggunakan masing-masing teknik berikut? Misalkan d = O
+   \begin{itemize}
+    \item[a.] ASK
+    \item[b.] QPSK 
+    \item[c.] 16-QAM
+    \item[d.] 64-QAM
+    \end{itemize}
 \end{exercise}
 
 \begin{solution}
-  Contoh solusi
+  Kami menggunakan rumus N = [1/(1 + d)] × r × B, tetapi pertama-tama kita perlu menghitung nilai r untuk setiap kasus.
+  \begin{itemize}
+    \item[a.] r = log$_2$2 = 1 → N= [1/(1 + 0)] × 1 × (4 KHz) = 4 kbps
+    \item[b.] r = log$_2$4=2 → N = [1/(1 + 0)] × 2 × (4 KHz) = 8 kbps
+    \item[c.] r = log$_2$16= 4 → N = [1/(1 + 0)] × 4 × (4 KHz) = 16 kbps
+    \item[d.] r = log$_2$64= 6 → N = [1/(1 + 0)] × 6 × (4 KHz) = 24 kbps
+    \end{itemize}
 \end{solution}
 
 \vspace{12pt}
