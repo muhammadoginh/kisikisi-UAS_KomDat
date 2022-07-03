@@ -1,12 +1,12 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.6.24)  28 JUN 2022 18:18
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.7.2)  3 JUL 2022 23:49
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**c:/Users/hp/Documents/GitHub/kisikisi-UAS_KomDat/main.tex
-(c:/Users/hp/Documents/GitHub/kisikisi-UAS_KomDat/main.tex
-LaTeX2e <2021-11-15> patch level 1
-L3 programming layer <2022-02-24> (C:\Program Files\MiKTeX\tex/latex/base\book.cls
+**"d:/ITEBA/Kuliah/TK4306 Komunikasi Data/tugas/reguler/persiapan uas/main.tex"
+(d:/ITEBA/Kuliah/TK4306 Komunikasi Data/tugas/reguler/persiapan uas/main.tex
+LaTeX2e <2022-06-01> patch level 3
+L3 programming layer <2022-06-16> (C:\Program Files\MiKTeX\tex/latex/base\book.cls
 Document Class: book 2021/10/04 v1.4n Standard LaTeX document class
 (C:\Program Files\MiKTeX\tex/latex/base\bk10.clo
 File: bk10.clo 2021/10/04 v1.4n Standard LaTeX file (size option)
@@ -24,30 +24,30 @@ File: bk10.clo 2021/10/04 v1.4n Standard LaTeX file (size option)
 \belowcaptionskip=\skip48
 \bibindent=\dimen138
 ) (C:\Program Files\MiKTeX\tex/latex/xcolor\xcolor.sty
-Package: xcolor 2021/10/31 v2.13 LaTeX color extensions (UK)
+Package: xcolor 2022/06/12 v2.14 LaTeX color extensions (UK)
  (C:\Program Files\MiKTeX\tex/latex/graphics-cfg\color.cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package xcolor Info: Driver file: pdftex.def on input line 227.
  (C:\Program Files\MiKTeX\tex/latex/graphics-def\pdftex.def
 File: pdftex.def 2020/10/05 v1.2a Graphics/color driver for pdftex
-)
-Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1352.
-Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1356.
-Package xcolor Info: Model `RGB' extended on input line 1368.
-Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1370.
-Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1371.
-Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1372.
-Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1373.
-Package xcolor Info: Model `Gray' substituted by `gray' on input line 1374.
-Package xcolor Info: Model `wave' substituted by `hsb' on input line 1375.
+) (C:\Program Files\MiKTeX\tex/latex-dev/graphics\mathcolor.ltx)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1353.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1357.
+Package xcolor Info: Model `RGB' extended on input line 1369.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1371.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1372.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1373.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1374.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1375.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1376.
 ) (C:\Program Files\MiKTeX\tex/latex/graphics\graphicx.sty
 Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
  (C:\Program Files\MiKTeX\tex/latex/graphics\keyval.sty
-Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
 \KV@toks@=\toks16
 ) (C:\Program Files\MiKTeX\tex/latex/graphics\graphics.sty
-Package: graphics 2021/03/04 v1.4d Standard LaTeX Graphics (DPC,SPQR)
+Package: graphics 2022/03/10 v1.4e Standard LaTeX Graphics (DPC,SPQR)
  (C:\Program Files\MiKTeX\tex/latex/graphics\trig.sty
 Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
 ) (C:\Program Files\MiKTeX\tex/latex/graphics-cfg\graphics.cfg
@@ -78,42 +78,61 @@ Package caption Info: Standard document class detected.
 )
 \c@subfigure=\count196
 \c@subtable=\count197
-)
-\c@exer=\count198
+) (C:\Program Files\MiKTeX\tex/latex/geometry\geometry.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
+ (C:\Program Files\MiKTeX\tex/generic/iftex\ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+ (C:\Program Files\MiKTeX\tex/generic/iftex\iftex.sty
+Package: iftex 2022/02/03 v1.0f TeX engine tests
+))
+\Gm@cnth=\count198
+\Gm@cntv=\count199
+\c@Gm@tempcnt=\count266
+\Gm@bindingoffset=\dimen149
+\Gm@wd@mp=\dimen150
+\Gm@odd@mp=\dimen151
+\Gm@even@mp=\dimen152
+\Gm@layoutwidth=\dimen153
+\Gm@layoutheight=\dimen154
+\Gm@layouthoffset=\dimen155
+\Gm@layoutvoffset=\dimen156
+\Gm@dimlist=\toks17
+ (C:\Program Files\MiKTeX\tex/latex/geometry\geometry.cfg))
+\c@exer=\count267
  (C:\Program Files\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
-File: l3backend-pdftex.def 2022-02-07 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count199
-\l__pdf_internal_box=\box50
+File: l3backend-pdftex.def 2022-04-20 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count268
+\l__pdf_internal_box=\box51
 ) (main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
  (C:\Program Files\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count266
-\scratchdimen=\dimen149
-\scratchbox=\box51
-\nofMPsegments=\count267
-\nofMParguments=\count268
-\everyMPshowfont=\toks17
-\MPscratchCnt=\count269
-\MPscratchDim=\dimen150
-\MPnumerator=\count270
-\makeMPintoPDFobject=\count271
-\everyMPtoPDFconversion=\toks18
+\scratchcounter=\count269
+\scratchdimen=\dimen157
+\scratchbox=\box52
+\nofMPsegments=\count270
+\nofMParguments=\count271
+\everyMPshowfont=\toks18
+\MPscratchCnt=\count272
+\MPscratchDim=\dimen158
+\MPnumerator=\count273
+\makeMPintoPDFobject=\count274
+\everyMPtoPDFconversion=\toks19
 ) (C:\Program Files\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
@@ -123,77 +142,108 @@ File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
 
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: <default>
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(71.13188pt, 472.03123pt, 71.13188pt)
+* v-part:(T,H,B)=(71.13188pt, 652.70622pt, 71.13188pt)
+* \paperwidth=614.295pt
+* \paperheight=794.96999pt
+* \textwidth=472.03123pt
+* \textheight=652.70622pt
+* \oddsidemargin=-1.1381pt
+* \evensidemargin=-1.1381pt
+* \topmargin=-31.2056pt
+* \headheight=12.0pt
+* \headsep=18.06749pt
+* \topskip=10.0pt
+* \footskip=25.29494pt
+* \marginparwidth=69.0pt
+* \marginparsep=7.0pt
+* \columnsep=10.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
 Chapter 1.
 [1
 
 
-{C:/Users/hp/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}] [2]
+{C:/Users/muhammadoginh/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}] [2]
 Chapter 2.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 244.
+(Font)              <7> on input line 246.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 244.
+(Font)              <5> on input line 246.
 [3
 
 ] [4]
 Chapter 3.
+<./picture//soal12.png, id=22, 521.69907pt x 158.84344pt>
+File: ./picture//soal12.png Graphic file (type png)
+<use ./picture//soal12.png>
+Package pdftex.def Info: ./picture//soal12.png  used on input line 489.
+(pdftex.def)             Requested size: 424.82523pt x 129.34839pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<./picture//solusi12.png, id=24, 539.76656pt x 140.77594pt>
+File: ./picture//solusi12.png Graphic file (type png)
+<use ./picture//solusi12.png>
+Package pdftex.def Info: ./picture//solusi12.png  used on input line 498.
+(pdftex.def)             Requested size: 424.82523pt x 110.79932pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
 [5
 
 ]
-<./picture//soal12.png, id=25, 521.69907pt x 158.84344pt>
-File: ./picture//soal12.png Graphic file (type png)
-<use ./picture//soal12.png>
-Package pdftex.def Info: ./picture//soal12.png  used on input line 487.
-(pdftex.def)             Requested size: 310.4979pt x 94.53847pt.
-<./picture//solusi12.png, id=27, 539.76656pt x 140.77594pt>
-File: ./picture//solusi12.png Graphic file (type png)
-<use ./picture//solusi12.png>
-Package pdftex.def Info: ./picture//solusi12.png  used on input line 496.
-(pdftex.def)             Requested size: 310.4979pt x 80.98204pt.
 <./picture//soal13.png, id=28, 664.73344pt x 146.79843pt>
 File: ./picture//soal13.png Graphic file (type png)
 <use ./picture//soal13.png>
-Package pdftex.def Info: ./picture//soal13.png  used on input line 508.
-(pdftex.def)             Requested size: 310.4979pt x 68.56967pt.
+Package pdftex.def Info: ./picture//soal13.png  used on input line 510.
+(pdftex.def)             Requested size: 424.82523pt x 93.81851pt.
 <./picture//solusi13.png, id=29, 532.23843pt x 136.25906pt>
 File: ./picture//solusi13.png Graphic file (type png)
 <use ./picture//solusi13.png>
-Package pdftex.def Info: ./picture//solusi13.png  used on input line 520.
-(pdftex.def)             Requested size: 310.4979pt x 79.49187pt.
+Package pdftex.def Info: ./picture//solusi13.png  used on input line 522.
+(pdftex.def)             Requested size: 424.82523pt x 108.76204pt.
 
-Overfull \hbox (33.65471pt too wide) has occurred while \output is active
-\OT1/cmr/m/sl/10 CHAPTER 3.  BANDWIDTH UTILIZATION: MULTIPLEXING AND SPREADING \OT1/cmr/m/n/10 6
- []
 
-[6 <./picture//soal12.png> <./picture//solusi12.png> <./picture//soal13.png>]
-<./picture//figure6.23.png, id=36, 690.32906pt x 281.55188pt>
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<./picture//figure6.23.png, id=30, 690.32906pt x 281.55188pt>
 File: ./picture//figure6.23.png Graphic file (type png)
 <use ./picture//figure6.23.png>
-Package pdftex.def Info: ./picture//figure6.23.png  used on input line 540.
-(pdftex.def)             Requested size: 310.4979pt x 126.63702pt.
+Package pdftex.def Info: ./picture//figure6.23.png  used on input line 542.
+(pdftex.def)             Requested size: 424.82523pt x 173.26721pt.
 
-Overfull \hbox (33.65471pt too wide) has occurred while \output is active
-\OT1/cmr/m/sl/10 CHAPTER 3.  BANDWIDTH UTILIZATION: MULTIPLEXING AND SPREADING \OT1/cmr/m/n/10 7
- []
+LaTeX Warning: `h' float specifier changed to `ht'.
 
-[7 <./picture//solusi13.png> <./picture//figure6.23.png>]
-Overfull \hbox (33.65471pt too wide) has occurred while \output is active
-\OT1/cmr/m/sl/10 CHAPTER 3.  BANDWIDTH UTILIZATION: MULTIPLEXING AND SPREADING \OT1/cmr/m/n/10 8
- []
-
-[8] (main.aux) ) 
+[6 <./picture//soal12.png> <./picture//solusi12.png> <./picture//soal13.png>] [7 <./picture//solusi13.png> <./picture//figure6.23.png>] (main.aux) ) 
 Here is how much of TeX's memory you used:
- 3252 strings out of 478582
- 55347 string characters out of 2854168
- 351868 words of memory out of 3000000
- 21456 multiletter control sequences out of 15000+600000
+ 3867 strings out of 478351
+ 65660 string characters out of 2846844
+ 371875 words of memory out of 3000000
+ 22285 multiletter control sequences out of 15000+600000
  471179 words of font info for 34 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 67i,7n,77p,328b,350s stack positions out of 10000i,1000n,20000p,200000b,80000s
+ 67i,7n,77p,348b,350s stack positions out of 10000i,1000n,20000p,200000b,80000s
 <C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsl10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on main.pdf (8 pages, 191749 bytes).
+Output written on main.pdf (7 pages, 191156 bytes).
 PDF statistics:
- 80 PDF objects out of 1000 (max. 8388607)
+ 77 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  26 words of extra memory for PDF output out of 10000 (max. 10000000)
 
