@@ -7,8 +7,6 @@
 \usepackage{multirow}
 \usepackage{booktabs,array,adjustbox}
 
-\usepackage[margin=2.5cm]{geometry}
-
 \graphicspath{{./picture/}}
 
 \newcommand{\exercisename}{Latihan}
@@ -224,7 +222,7 @@ Bandwidth sebanding dengan (5.25 / 16) N yang berada di dalam range pada Tabel 1
   \centerline{Gambar 1.4: Gambar grafik skema MLT-3}\vspace*{2px}
 \end{figure}
 
-Bandwidth sebanding dengan (5.25/8) $\times$ N yang berada di dalam kisaran pada Tabel 1.1
+Bandwidth sebanding dengan (5.25/8) × N yang berada di dalam kisaran pada Tabel 1.1
 
 (B = 0 hingga N/2) untuk MLT-3.
 
@@ -466,12 +464,12 @@ adalah nilai r. Oleh karena itu, kami menggunakan rumus r = log$_2$L untuk setia
 \end{exercise}
 
 \begin{solution}
-  Kami menggunakan rumus B = (1 + d) $\times$ (1/r) $\times$ N, tetapi pertama-tama kita perlu menghitung nilai r untuk setiap kasus.
+  Kami menggunakan rumus B = (1 + d) × (1/r) × N, tetapi pertama-tama kita perlu menghitung nilai r untuk setiap kasus.
   \begin{itemize}
-    \item[a.] r = 1 → B = (1 + 1) $\times$ (1/1) $\times$ (4000 bps) = 8000 Hz
-    \item[b.] r = 1 → B = (1 + 1) $\times$ (1/1) $\times$ (4000 bps) + 4 KHz = 8000 Hz
-    \item[c.] r = 2 → B = (1 + 1) $\times$ (1/2) $\times$ (4000 bps) = 2000 Hz
-    \item[d.] r = 4 → B = (1 + 1) $\times$ (1/4) $\times$ (4000 bps) = 1000 Hz
+    \item[a.] r = 1 → B = (1 + 1) × (1/1) × (4000 bps) = 8000 Hz
+    \item[b.] r = 1 → B = (1 + 1) × (1/1) × (4000 bps) + 4 KHz = 8000 Hz
+    \item[c.] r = 2 → B = (1 + 1) × (1/2) × (4000 bps) = 2000 Hz
+    \item[d.] r = 4 → B = (1 + 1) × (1/4) × (4000 bps) = 1000 Hz
  \end{itemize}
 \end{solution}
 
@@ -488,54 +486,71 @@ adalah nilai r. Oleh karena itu, kami menggunakan rumus r = log$_2$L untuk setia
 \end{exercise}
 
 \begin{solution}
-  Kami menggunakan rumus N = [1/(1 + d)] $\times$ r $\times$ B, tetapi pertama-tama kita perlu menghitung nilai r untuk setiap kasus.
+  Kami menggunakan rumus N = [1/(1 + d)] × r × B, tetapi pertama-tama kita perlu menghitung nilai r untuk setiap kasus.
   \begin{itemize}
-    \item[a.] r = log$_2$2 = 1 → N= [1/(1 + 0)] $\times$ 1 $\times$ (4 KHz) = 4 kbps
-    \item[b.] r = log$_2$4=2 → N = [1/(1 + 0)] $\times$ 2 $\times$ (4 KHz) = 8 kbps
-    \item[c.] r = log$_2$16= 4 → N = [1/(1 + 0)] $\times$ 4 $\times$ (4 KHz) = 16 kbps
-    \item[d.] r = log$_2$64= 6 → N = [1/(1 + 0)] $\times$ 6 $\times$ (4 KHz) = 24 kbps
+    \item[a.] r = log$_2$2 = 1 → N= [1/(1 + 0)] × 1 × (4 KHz) = 4 kbps
+    \item[b.] r = log$_2$4=2 → N = [1/(1 + 0)] × 2 × (4 KHz) = 8 kbps
+    \item[c.] r = log$_2$16= 4 → N = [1/(1 + 0)] × 4 × (4 KHz) = 16 kbps
+    \item[d.] r = log$_2$64= 6 → N = [1/(1 + 0)] × 6 × (4 KHz) = 24 kbps
     \end{itemize}
 \end{solution}
 
 \vspace{12pt}
 
-% Farhan Ghulam  9-12
+% Farhan Ghulam Hadi Saputra 9-12
 \begin{exercise}
-  Contoh soal 9
+  Sebuah perusahaan memiliki media dengan bandwidth I-MHz (lowpass). Korporasi perlu membuat 10 saluran independen terpisah yang masing-masing mampu mengirim setidaknya 10Mbps. Perusahaan telah memutuskan untuk menggunakan teknologi QAM. Berapa minimal? jumlah bit per baud untuk setiap saluran? Berapa jumlah poin dalam diagram konstelasi untuk setiap saluran? Misalkan d = O.
 \end{exercise}
 
 \begin{solution}
-  Contoh solusi
+  Pertama, kami menghitung bandwidth untuk setiap saluran = (1 MHz) / 10 = 100 KHz. Kita kemudian cari nilai r untuk setiap saluran: B = (1 + d) × (1/r) × (N) → r = N / B → r = (1 Mbps/100 KHz) = 10 Kita kemudian dapat menghitung jumlah level: L = 2r = 210 = 1024. Ini berarti bahwa bahwa kita memerlukan teknik 1024-QAM untuk mencapai kecepatan data ini.
 \end{solution}
 
 \vspace{12pt}
 
 \begin{exercise}
-  Contoh soal
+  Sebuah perusahaan kabel menggunakan salah satu saluran TV kabel (dengan bandwidth 6 MHz) untuk menyediakan komunikasi digital untuk setiap penduduk. Berapa kecepatan data yang tersedia? untuk setiap penduduk apakah perusahaan menggunakan teknik 64-QAM?
 \end{exercise}
 
 \begin{solution}
-  Contoh solusi
+  Kita dapat menggunakan rumus: N = [1/(1 + d)] × r × B = 1 × 6 × 6 MHz = 36 Mbps
 \end{solution}
 
 \vspace{12pt}
 
 \begin{exercise}
-  Contoh soal
+  Temukan bandwidth untuk situasi berikut jika kita perlu memodulasi 5-KHz suara.
+  \begin{itemize}
+    \item[a.] AM
+    \item[b.] PM (set $ \beta$=5)
+    \item[c.] PM (set $ \beta$=1)
+    \end{itemize}
 \end{exercise}
 
 \begin{solution}
-  Contoh solusi
+ \begin{itemize}
+    \item[a.] $ B_{AM} $ = 2 × B = 2 × 5 = 10 KHz
+    \item[b.] $ B_{FM} $ = 2 × (1 + $\beta$) × B = 2 × (1 + 5) × 5 = 60 KHz
+    \item[c.] $ B_{PM} $ = 2 × (1 + $\beta$) × B = 2 × (1 + 1) × 5 = 20 KHz
+    \end{itemize}
 \end{solution}
 
 \vspace{12pt}
 
 \begin{exercise}
-  Contoh soal
+  Temukan jumlah total saluran di pita yang sesuai yang dialokasikan oleh FCC.
+\begin{itemize}
+    \item[a.] AM
+    \item[b.] FM
+    \end{itemize}
 \end{exercise}
 
 \begin{solution}
-  Contoh solusi
+  Kami menghitung jumlah saluran, bukan jumlah stasiun yang hidup berdampingan
+  \begin{itemize}
+    \item[a.] n = (1700 - 530) KHz / 10 KHz = 117
+    \item[b.] n = (108 - 88) MHz / 200 KHz = 100
+    \end{itemize}
 \end{solution}
 
 \chapter{Bandwidth Utilization: Multiplexing and Spreading}
@@ -597,18 +612,8 @@ kelompok jumbo.
 
 % Kevin Antony Kasamilale 5-8
 \begin{exercise}
-  Contoh soal 5 : Kita perlu menggunakan TDM sinkron dan menggabungkan 20 sumber digital, masing-masing 100 Kbps.
-   Setiap slot keluaran membawa 1 bit dari setiap sumber digital, tetapi satu bit tambahan ditambahkan ke setiap frame untuk sinkronisasi
-  \end{exercise}
-  
-  \begin{itemize}
-    \item Cara menghitung Berapa ukuran bingkai keluaran dalam bit?
-    \item Cara menghitung Berapa kecepatan bingkai keluaran?
-    \item Cara menghitung Berapa durasi frame output?
-    \item Cara menghitung Berapa kecepatan data keluaran?
-    \item Cara menghitung Berapa efisiensi sistem (rasio bit yang berguna dengan total bit)?
-    setiap slot keluaran membawa 2 bit dari setiap sumber
-  \end{itemize}
+  Contoh soal 5
+\end{exercise}
 
 \begin{solution}
   Contoh solusi
@@ -617,15 +622,8 @@ kelompok jumbo.
 \vspace{12pt}
 
 \begin{exercise}
-  Contoh soal 6 : Kami memiliki 14 sumber, masing-masing membuat 500 karakter 8-bit per detik. 
-  Karena hanya beberapa dari sumber-sumber ini yang aktif setiap saat, kami menggunakan TDM statistik untuk menggabungkan sumber-sumber ini menggunakan penyisipan karakter. Setiap frame membawa 6 slot sekaligus, tetapi kita perlu menambahkan alamat 4-bit ke setiap slot. Jawab pertanyaan berikut:
+  Contoh soal 6
 \end{exercise}
-  \begin{itemize}
-      \item  Berapa ukuran bingkai keluaran dalam bit?
-      \item  Berapa kecepatan bingkai keluaran?
-      \item  Berapa durasi bingkai keluaran?
-      \item Berapa kecepatan data keluaran?
-    \end{itemize}
 
 \begin{solution}
   Contoh solusi
@@ -634,17 +632,8 @@ kelompok jumbo.
 \vspace{12pt}
 
 \begin{exercise}
-  Contoh soal : Sepuluh sumber, enam dengan bit rate 200 kbps dan empat dengan bit rate 400 kbps, 
-  akan digabungkan menggunakan TDM bertingkat tanpa bit sinkronisasi. Jawablah pertanyaan-pertanyaan berikut tentang tahap akhir dari multiplexing: 
+  Contoh soal
 \end{exercise}
-
-\begin{itemize}
-  \item  Berapa ukuran frame dalam bit? 
-  \item Berapa frame ratenya? 
-  \item Berapa durasi sebuah frame? 
-  \item Berapa kecepatan datanya?
-  
-\end{itemize}
 
 \begin{solution}
   Contoh solusi
@@ -653,17 +642,8 @@ kelompok jumbo.
 \vspace{12pt}
 
 \begin{exercise}
-  Contoh soal : Empat saluran, dua dengan kecepatan bit 200 kbps dan dua dengan kecepatan bit 150 kbps,
-  akan dimultipleks menggunakan TDM slot ganda tanpa bit sinkronisasi. Jawab pertanyaan berikut:
+  Contoh soal
 \end{exercise}
-
-\begin{itemize}
-  \item   Berapa ukuran frame dalam bit?
-  \item  Berapa frame ratenya?
-  \item  Berapa durasi sebuah frame?
-  \item  Berapa kecepatan datanya?
-  
-\end{itemize}
 
 \begin{solution}
   Contoh solusi
@@ -793,67 +773,42 @@ kelompok jumbo.
 
 % Maranti Nainggolan 15-18
 \begin{exercise}
-  Berapa jumlah bit minimum pada urutan PN jika kita menggunakan FHSS dengan bandwidth saluran B = 4 KHz dan Bss = 100 KHz?
- \end{exercise}
- 
- \begin{solution}
-   Jumlah hop = 100 KHz/4 KHz = 25. Jadi kita membutuhkan log225 = 4,64 = 5 bit
- \end{solution}
- 
- \vspace{12pt}
- 
- \begin{exercise}
- Sistem FHSS menggunakan urutan PN 4-bit. Jika bit rate PN adalah 64 bit per detik, jawablah pertanyaan berikut: 
- \begin{itemize}
-  \item[a.] Berapa jumlah total saluran yang mungkin?
-  \item[b.] Berapa jumlah waktu yang diperlukan untuk menyelesaikan satu putaran penuh PN?
-\end{itemize}
- \end{exercise}
- 
- \begin{solution}
-  \begin{itemize}
-    \item[a.] 24 = 16 lompatan
-    \item[b.] (64 bit/s) / 4 bit = 16 siklus
-  \end{itemize}
- \end{solution}
- 
- \vspace{12pt}
- 
- \begin{exercise}
-  Generator angka pseudorandom menggunakan rumus berikut untuk membuat deret acak: Ni11 5 (5 1 7Ni) mod 17 Di mana Ni mendefinisikan nomor acak saat ini dan Ni+1 mendefinisikan nomor acak berikutnya. Istilah mod berarti nilai sisa saat membagi (5 + 7Ni) dengan 17. Tunjukkan urutan yang dibuat oleh generator ini untuk digunakan untuk spread spectrum.
- \end{exercise}
+  Contoh soal 15
+\end{exercise}
 
- \vspace{12pt}
- 
- \begin{solution}
- Bilangan acak adalah 11, 13, 10, 6, 12, 3, 8, 9 seperti yang dihitung di bawah ini: 
-<<<<<<< HEAD
-
-=======
- \begin{itemize}
-  \item[a.] N1 = 11
-  \item[b.] N2 =(5 +7 * 11) mod 17 1 = 13
-  \item[c.] N3 =(5 +7 * 13) mod 17 1 = 10 
-  \item[d.]N4 =(5 +7 * 10) mod 17 1 = 6
-  \item[e.] N5 =(5 +7 * 6) mod 17 1 = 12 
-  \item[f.]N6 =(5 +7 * 12) mod 17 1 = 3 
-  \item[g.]N7 =(5 +7 * 3) mod 17 1 = 8 
-  \item[h.]N8 =(5 + 7 * 8) mod 17 1 = 9
-\end{itemize}
->>>>>>> e5a208f642cb6fef7bb29351946f1aafd79663ac
+\begin{solution}
+  Contoh solusi
 \end{solution}
- 
- \vspace{12pt}
- 
- \begin{exercise}
- Kami memiliki media digital dengan kecepatan data 10 Mbps. Berapa banyak saluran suara 64 kbps yang dapat dibawa oleh media ini jika kita menggunakan DSSS dengan urutan Barker?
- \end{exercise}
- 
- \vspace{12pt}
 
- \begin{solution}
- Chip Barker adalah 11 bit, yang berarti meningkatkan bit rate 11 kali. Saluran suara 64 kbps membutuhkan 11 × 64 kbps = 704 kbps. Artinya saluran bandpass dapat membawa (10 Mbps) / (704 kbps) atau sekitar 14 saluran.
- \end{solution}
+\vspace{12pt}
+
+\begin{exercise}
+  Contoh soal 16
+\end{exercise}
+
+\begin{solution}
+  Contoh solusi
+\end{solution}
+
+\vspace{12pt}
+
+\begin{exercise}
+  Contoh soal 17
+\end{exercise}
+
+\begin{solution}
+  Contoh solusi
+\end{solution}
+
+\vspace{12pt}
+
+\begin{exercise}
+  Contoh soal
+\end{exercise}
+
+\begin{solution}
+  Contoh solusi
+\end{solution}
 
 \end{document}
 
