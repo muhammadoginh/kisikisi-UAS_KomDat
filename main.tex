@@ -758,42 +758,59 @@ kelompok jumbo.
 
 % Maranti Nainggolan 15-18
 \begin{exercise}
-  Contoh soal 15
-\end{exercise}
+  Berapa jumlah bit minimum pada urutan PN jika kita menggunakan FHSS dengan bandwidth saluran B = 4 KHz dan Bss = 100 KHz?
+ \end{exercise}
+ 
+ \begin{solution}
+   Jumlah hop = 100 KHz/4 KHz = 25. Jadi kita membutuhkan log225 = 4,64 = 5 bit
+ \end{solution}
+ 
+ \vspace{12pt}
+ 
+ \begin{exercise}
+ Sistem FHSS menggunakan urutan PN 4-bit. Jika bit rate PN adalah 64 bit per detik, jawablah pertanyaan berikut: 
+ \begin{itemize}
+  \item[a.] Berapa jumlah total saluran yang mungkin?
+  \item[b.] Berapa jumlah waktu yang diperlukan untuk menyelesaikan satu putaran penuh PN?
+\end{itemize}
+ \end{exercise}
+ 
+ \begin{solution}
+  \begin{itemize}
+    \item[a.] 24 = 16 lompatan
+    \item[b.] (64 bit/s) / 4 bit = 16 siklus
+  \end{itemize}
+ \end{solution}
+ 
+ \vspace{12pt}
+ 
+ \begin{exercise}
+  Generator angka pseudorandom menggunakan rumus berikut untuk membuat deret acak: Ni11 5 (5 1 7Ni) mod 17 Di mana Ni mendefinisikan nomor acak saat ini dan Ni+1 mendefinisikan nomor acak berikutnya. Istilah mod berarti nilai sisa saat membagi (5 + 7Ni) dengan 17. Tunjukkan urutan yang dibuat oleh generator ini untuk digunakan untuk spread spectrum.
+ \end{exercise}
 
-\begin{solution}
-  Contoh solusi
+ \begin{solution}
+ Bilangan acak adalah 11, 13, 10, 6, 12, 3, 8, 9 seperti yang dihitung di bawah ini: 
+ \begin{itemize}
+  \item[\bullet ] N1 = 11
+  \item[\bullet ] N2 =(5 +7 * 11) mod 17 1 = 13
+  \item[\bullet ] N3 =(5 +7 * 13) mod 17 1 = 10 
+  \item[\bullet ]N4 =(5 +7 * 10) mod 17 1 = 6
+  \item[\bullet ] N5 =(5 +7 * 6) mod 17 1 = 12 
+  \item[\bullet ]N6 =(5 +7 * 12) mod 17 1 = 3 
+  \item[\bullet ]N7 =(5 +7 * 3) mod 17 1 = 8 
+  \item[\bullet ]N8 =(5 + 7 * 8) mod 17 1 = 9
+\end{itemize}
 \end{solution}
-
-\vspace{12pt}
-
-\begin{exercise}
-  Contoh soal 16
-\end{exercise}
-
-\begin{solution}
-  Contoh solusi
-\end{solution}
-
-\vspace{12pt}
-
-\begin{exercise}
-  Contoh soal 17
-\end{exercise}
-
-\begin{solution}
-  Contoh solusi
-\end{solution}
-
-\vspace{12pt}
-
-\begin{exercise}
-  Contoh soal
-\end{exercise}
-
-\begin{solution}
-  Contoh solusi
-\end{solution}
+ 
+ \vspace{12pt}
+ 
+ \begin{exercise}
+ Kami memiliki media digital dengan kecepatan data 10 Mbps. Berapa banyak saluran suara 64 kbps yang dapat dibawa oleh media ini jika kita menggunakan DSSS dengan urutan Barker?
+ \end{exercise}
+ 
+ \begin{solution}
+ Chip Barker adalah 11 bit, yang berarti meningkatkan bit rate 11 kali. Saluran suara 64 kbps membutuhkan 11 × 64 kbps = 704 kbps. Artinya saluran bandpass dapat membawa (10 Mbps) / (704 kbps) atau sekitar 14 saluran.
+ \end{solution}
 
 \end{document}
 
