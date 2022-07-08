@@ -612,6 +612,15 @@ kelompok jumbo.
 
 \begin{solution}
   Contoh solusi
+
+\begin{itemize}
+  \item Setiap bingkai keluaran membawa 2 bit dari setiap sumber ditambah satu bit tambahan untuk sinkronisasi. Ukuran bingkai = 20 × 2 + 1 = 41 bit.
+  \item Setiap frame membawa 2 bit dari setiap sumber. Kecepatan bingkai = 100.000/2 = 50.000 bingkai/dtk.
+  \item Durasi bingkai = 1 /(kecepatan bingkai) = 1 /50.000 = 20 s.
+  \item Kecepatan data = (50.000 frame/s) × (41 bit/frame) = 2,05 Mbps. Kecepatan data keluaran di sini sedikit kurang dari yang ada di Latihan 16.
+  \item Dalam setiap frame 40 bit dari 41 berguna. Efisiensi = 40/41= 97,5%. Efisiensi lebih baik daripada yang ada di Latihan 16.
+\end{itemize}	
+
 \end{solution}
 
 \vspace{12pt}
@@ -628,7 +637,13 @@ kelompok jumbo.
     \end{itemize}
 
 \begin{solution}
-  Contoh solusi
+  
+\begin{itemize}
+\item [a] Ukuran bingkai = 6 × (8 + 4) = 72 bit.
+\item [b] Kita dapat mengasumsikan bahwa kita hanya memiliki 6 jalur input. Setiap bingkai perlu membawa satu  karakter dari masing-masing baris ini. Ini berarti bahwa frame rate adalah 500 bingkai/dtk.
+\item [c] Durasi bingkai = 1 /(kecepatan bingkai) = 1 /500 = 2 md.
+\item [d] Kecepatan data = (500 frame/s) × (72 bit/frame) = 36 kbps.
+\end{itemize}
 \end{solution}
 
 \vspace{12pt}
@@ -647,7 +662,13 @@ kelompok jumbo.
 \end{itemize}
 
 \begin{solution}
-  Contoh solusi
+  \begin{itemize}
+   \item 	Setiap frame keluaran membawa 1 bit dari masing-masing dari tujuh saluran 400-kbps. Ukuran bingkai = 7 × 1 = 7 bit.
+    \item  Setiap frame membawa 1 bit dari setiap sumber 400-kbps. Kecepatan bingkai = 400.000 bingkai/dtk.
+    \item 	Durasi bingkai = 1 /(kecepatan bingkai) = 1/400.000 = 2,5 s.
+    \item Kecepatan data keluaran = (400.000 bingkai/dtk) × (7 bit/bingkai) = 2,8 Mbps. Kita juga dapat menghitung laju data keluaran sebagai jumlah laju data masukan karena tidak ada bit yang disinkronkan. Kecepatan data keluaran = 6 × 200 + 4 × 400 = 2,8 Mbps.
+
+  \end{itemize}
 \end{solution}
 
 \vspace{12pt}
@@ -666,7 +687,14 @@ kelompok jumbo.
 \end{itemize}
 
 \begin{solution}
-  Contoh solusi
+  \begin{itemize}
+   \item [a] Frame membawa 4 bit dari masing-masing dua sumber pertama dan 3 bit dari masing-masing dua sumber kedua. Ukuran bingkai = 4 × 2 + 3 × 2 = 14 bit.
+    \item [b] Setiap frame membawa 4 bit dari setiap sumber 200-kbps atau 3 bit dari setiap 150 kbps. Kecepatan bingkai = 200.000 / 4 = 150.000 /3 = 50.000 bingkai/dtk.
+    \item [c] Durasi bingkai = 1 /(kecepatan bingkai) = 1 /50.000 = 20 s.
+     \item [d] Kecepatan data keluaran = (50.000 frame/s) × (14 bit/frame) = 700 kbps. Kita juga dapat menghitung laju data keluaran sebagai jumlah laju data masukan karena tidak ada bit sinkronisasi. Kecepatan data keluaran = 2 × 200 + 2 × 150 = 700 kbps.
+  
+  \end{itemize}
+ 
 \end{solution}
 
 \vspace{12pt}
@@ -739,7 +767,7 @@ kelompok jumbo.
 \end{exercise}
 
 
-\vspace{40pt}
+\vspace{12pt}
 
 \begin{solution}
   \begin{figure}[h]

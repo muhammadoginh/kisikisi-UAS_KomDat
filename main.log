@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.6.24)  4 JUL 2022 14:53
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.6.24)  8 JUL 2022 23:26
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -371,48 +371,42 @@ Package pdftex.def Info: picture/figure-5.2.png  used on input line 422.
 Chapter 3.
 [9
 
-]
-<./picture//soal12.png, id=47, 521.69907pt x 158.84344pt>
+] [10]
+<./picture//soal12.png, id=50, 521.69907pt x 158.84344pt>
 File: ./picture//soal12.png Graphic file (type png)
 <use ./picture//soal12.png>
-Package pdftex.def Info: ./picture//soal12.png  used on input line 714.
+Package pdftex.def Info: ./picture//soal12.png  used on input line 742.
 (pdftex.def)             Requested size: 424.82523pt x 129.34839pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<./picture//solusi12.png, id=48, 539.76656pt x 140.77594pt>
+<./picture//solusi12.png, id=51, 539.76656pt x 140.77594pt>
 File: ./picture//solusi12.png Graphic file (type png)
 <use ./picture//solusi12.png>
-Package pdftex.def Info: ./picture//solusi12.png  used on input line 723.
+Package pdftex.def Info: ./picture//solusi12.png  used on input line 751.
 (pdftex.def)             Requested size: 424.82523pt x 110.79932pt.
 
+
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[10]
-<./picture//soal13.png, id=52, 664.73344pt x 146.79843pt>
+[11 <./picture//soal12.png>]
+<./picture//soal13.png, id=56, 664.73344pt x 146.79843pt>
 File: ./picture//soal13.png Graphic file (type png)
 <use ./picture//soal13.png>
-Package pdftex.def Info: ./picture//soal13.png  used on input line 735.
+Package pdftex.def Info: ./picture//soal13.png  used on input line 763.
 (pdftex.def)             Requested size: 424.82523pt x 93.81851pt.
-<./picture//solusi13.png, id=53, 532.23843pt x 136.25906pt>
+<./picture//solusi13.png, id=57, 532.23843pt x 136.25906pt>
 File: ./picture//solusi13.png Graphic file (type png)
 <use ./picture//solusi13.png>
-Package pdftex.def Info: ./picture//solusi13.png  used on input line 747.
+Package pdftex.def Info: ./picture//solusi13.png  used on input line 775.
 (pdftex.def)             Requested size: 424.82523pt x 108.76204pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<./picture//figure6.23.png, id=54, 690.32906pt x 281.55188pt>
+<./picture//figure6.23.png, id=58, 690.32906pt x 281.55188pt>
 File: ./picture//figure6.23.png Graphic file (type png)
 <use ./picture//figure6.23.png>
-Package pdftex.def Info: ./picture//figure6.23.png  used on input line 767.
+Package pdftex.def Info: ./picture//figure6.23.png  used on input line 795.
 (pdftex.def)             Requested size: 424.82523pt x 173.26721pt.
+
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[11 <./picture//soal12.png> <./picture//solusi12.png> <./picture//soal13.png>] [12 <./picture//solusi13.png> <./picture//figure6.23.png>] [13] (main.aux) ) 
+[12 <./picture//solusi12.png> <./picture//soal13.png> <./picture//solusi13.png>] [13 <./picture//figure6.23.png>] [14] (main.aux) ) 
 Here is how much of TeX's memory you used:
  5686 strings out of 478582
  97795 string characters out of 2854168
@@ -422,9 +416,9 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  67i,12n,80p,439b,389s stack positions out of 10000i,1000n,20000p,200000b,80000s
  <C:\Users\hp\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1000.pk> <C:\Users\hp\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcti1000.pk><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsl10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on main.pdf (13 pages, 1967311 bytes).
+Output written on main.pdf (14 pages, 1970254 bytes).
 PDF statistics:
- 117 PDF objects out of 1000 (max. 8388607)
+ 120 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  46 words of extra memory for PDF output out of 10000 (max. 10000000)
 
