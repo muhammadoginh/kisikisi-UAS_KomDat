@@ -346,41 +346,87 @@ Bandwidth sebanding dengan (5.25/8) $\times$ N yang berada di dalam kisaran pada
 
 % Muhammad Al Imron 17-20
 \begin{exercise}
-  Contoh soal 17
+
+  Berapa kecepatan maksimum data dari sebuah saluran dengan bandwidth 200 KHz jika kita menggunakan 4 level sinyal digital ?
 \end{exercise}
 
 \begin{solution}
-  Contoh solusi
+
+  Kecepatan maksimum data rate dapat di hitung menggunakan :
+  Nmax = 2 $\times$ B $\times$ nb = 2 $\times$ 200 KHz $\times$ log24 = 800 kbps
 \end{solution}
 
 \vspace{12pt}
 
 \begin{exercise}
-  Contoh soal
+
+  Sebuah sinyal analog memiliki bandwidth 20 Khz. Jika kita mengambil sampel sinyal ini dan mengirimkannya melalui saluran 30 Kbps, berapakah SNRdB dari sinyal tersebut ?
 \end{exercise}
 
 \begin{solution}
-  Contoh solusi
+
+  Pertama kita menghitung sampling rate (fs) dan angka bit dari setiap sample (nb).
+  \vspace{6pt}
+
+  fmax = 0 + 4 = 4 KHz → fs = 2 $\times$ 4 = 8000 sample/s
+  \vspace{6pt}
+
+  Kemudian kita menghitung angka bit per-sample.
+  \vspace{6pt}
+
+  → nb = 30000 / 8000 = 3.75
+  \vspace{6pt}
+
+  Kita juga menggunakan integer nb = 4.
+  \vspace{6pt}
+
+  Nilai SNRdB = 6.02 $\times$ nb + 1.72 = 25.8
+  \vspace{6pt}
+
 \end{solution}
 
 \vspace{12pt}
 
 \begin{exercise}
-  Contoh soal
+  
+  Kami memiliki saluran baseband dengan bandwidth I-MHz. Berapa kecepatan data untuk saluran ini jika kita menggunakan salah satu skema pengkodean baris berikut?
+  \begin{enumerate}[a)]
+    \item NRZ-L
+    \item Manchester
+    \item MLT-3
+    \item 2B1Q
+  \end{enumerate}
 \end{exercise}
 
 \begin{solution}
-  Contoh solusi
+  
+  Kita bisa menghitung data rate dari setiap scheme dengan :
+  \begin{enumerate}[a)]
+    \item NRZ → N = 2 $\times$ B = 2 $\times$ 1 MHz = 2 Mbps
+    \item Manchester → N = 1 $\times$ B = 1 $\times$ 1 MHz = 1 Mbps
+    \item MLT-3 → N = 3 $\times$ B = 3 $\times$ 1 MHz = 3 Mbps
+    \item 2B1Q → N = 4 $\times$ B = 4 $\times$ 1 MHz = 4 Mbps
+  \end{enumerate}
 \end{solution}
 
 \vspace{12pt}
 
 \begin{exercise}
-  Contoh soal
+  
+  Kita akan mengirimkan 1000 karakter dengan setiap karakter nya di encode dengan 8 bit.
+  \begin{enumerate}[a)]
+    \item Tentukan angka dari yang di bit yang dikirimkan untuk sychronous transmission !
+    \item Tentukan angka dari yang di bit yang dikirimkan untuk asychronous transmission !
+    \item Tentukan persentase redudansi dari setiap case ! 
+  \end{enumerate}
 \end{exercise}
 
 \begin{solution}
-  Contoh solusi
+  \begin{enumerate}[a)]
+    \item Untuk sychronous transmission, kita memiliki 1000 × 8 = 8000 bits.
+    \item Untuk asychronous transmission, kita memiliki 1000 × 10 = 10000 bits. Catatan : kita berasumsi hanya berhenti 1 bit dan memulai 1 bit. Beberapa sistem menggunakan bit lebih.
+    \item Untuk case a, redudansi nya 0\%. Untuk case b, kita mengirim extra 2000 untuk setiap 8000 yang bit butuhkan. redudansi nya 25\%.
+  \end{enumerate}
 \end{solution}
 
 \chapter{Analog Transmission}

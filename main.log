@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.7.2)  9 JUL 2022 19:57
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.7.2)  11 JUL 2022 09:16
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -86,4 +86,351 @@ Package: enumitem 2019/06/20 v3.9 Customized lists
 \enit@inbox=\box50
 \enit@count@id=\count198
 \enitdp@description=\count199
-) (C:
+) (C:\Users\User\AppData\Local\Programs\MiKTeX\tex/latex/tools\multicol.sty
+Package: multicol 2021/10/28 v1.9b multicolumn formatting (FMi)
+\c@tracingmulticols=\count266
+\mult@box=\box51
+\multicol@leftmargin=\dimen150
+\c@unbalance=\count267
+\c@collectmore=\count268
+\doublecol@number=\count269
+\multicoltolerance=\count270
+\multicolpretolerance=\count271
+\full@width=\dimen151
+\page@free=\dimen152
+\premulticols=\dimen153
+\postmulticols=\dimen154
+\multicolsep=\skip50
+\multicolbaselineskip=\skip51
+\partial@page=\box52
+\last@line=\box53
+\maxbalancingoverflow=\dimen155
+\mult@rightbox=\box54
+\mult@grightbox=\box55
+\mult@firstbox=\box56
+\mult@gfirstbox=\box57
+\@tempa=\box58
+\@tempa=\box59
+\@tempa=\box60
+\@tempa=\box61
+\@tempa=\box62
+\@tempa=\box63
+\@tempa=\box64
+\@tempa=\box65
+\@tempa=\box66
+\@tempa=\box67
+\@tempa=\box68
+\@tempa=\box69
+\@tempa=\box70
+\@tempa=\box71
+\@tempa=\box72
+\@tempa=\box73
+\@tempa=\box74
+\@tempa=\box75
+\@tempa=\box76
+\@tempa=\box77
+\@tempa=\box78
+\@tempa=\box79
+\@tempa=\box80
+\@tempa=\box81
+\@tempa=\box82
+\@tempa=\box83
+\@tempa=\box84
+\@tempa=\box85
+\@tempa=\box86
+\@tempa=\box87
+\@tempa=\box88
+\@tempa=\box89
+\@tempa=\box90
+\@tempa=\box91
+\@tempa=\box92
+\@tempa=\box93
+\c@minrows=\count272
+\c@columnbadness=\count273
+\c@finalcolumnbadness=\count274
+\last@try=\dimen156
+\multicolovershoot=\dimen157
+\multicolundershoot=\dimen158
+\mult@nat@firstbox=\box94
+\colbreak@box=\box95
+\mc@col@check@num=\count275
+) (C:\Users\User\AppData\Local\Programs\MiKTeX\tex/latex/multirow\multirow.sty
+Package: multirow 2021/03/15 v2.8 Span multiple rows of a table
+\multirow@colwidth=\skip52
+\multirow@cntb=\count276
+\multirow@dima=\skip53
+\bigstrutjot=\dimen159
+) (C:\Users\User\AppData\Local\Programs\MiKTeX\tex/latex/booktabs\booktabs.sty
+Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
+\heavyrulewidth=\dimen160
+\lightrulewidth=\dimen161
+\cmidrulewidth=\dimen162
+\belowrulesep=\dimen163
+\belowbottomsep=\dimen164
+\aboverulesep=\dimen165
+\abovetopsep=\dimen166
+\cmidrulesep=\dimen167
+\cmidrulekern=\dimen168
+\defaultaddspace=\dimen169
+\@cmidla=\count277
+\@cmidlb=\count278
+\@aboverulesep=\dimen170
+\@belowrulesep=\dimen171
+\@thisruleclass=\count279
+\@lastruleclass=\count280
+\@thisrulewidth=\dimen172
+) (C:\Users\User\AppData\Local\Programs\MiKTeX\tex/latex/tools\array.sty
+Package: array 2021/10/04 v2.5f Tabular extension package (FMi)
+\col@sep=\dimen173
+\ar@mcellbox=\box96
+\extrarowheight=\dimen174
+\NC@list=\toks18
+\extratabsurround=\skip54
+\backup@length=\skip55
+\ar@cellbox=\box97
+) (C:\Users\User\AppData\Local\Programs\MiKTeX\tex/latex/adjustbox\adjustbox.sty
+Package: adjustbox 2020/08/19 v1.3 Adjusting TeX boxes (trim, clip, ...)
+ (C:\Users\User\AppData\Local\Programs\MiKTeX\tex/latex/xkeyval\xkeyval.sty
+Package: xkeyval 2020/11/20 v2.8 package option processing (HA)
+ (C:\Users\User\AppData\Local\Programs\MiKTeX\tex/generic/xkeyval\xkeyval.tex (C:\Users\User\AppData\Local\Programs\MiKTeX\tex/generic/xkeyval\xkvutils.tex
+\XKV@toks=\toks19
+\XKV@tempa@toks=\toks20
+)
+\XKV@depth=\count281
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+)) (C:\Users\User\AppData\Local\Programs\MiKTeX\tex/latex/adjustbox\adjcalc.sty
+Package: adjcalc 2012/05/16 v1.1 Provides advanced setlength with multiple back-ends (calc, etex, pgfmath)
+) (C:\Users\User\AppData\Local\Programs\MiKTeX\tex/latex/adjustbox\trimclip.sty
+Package: trimclip 2020/08/19 v1.2 Trim and clip general TeX material
+ (C:\Users\User\AppData\Local\Programs\MiKTeX\tex/latex/collectbox\collectbox.sty
+Package: collectbox 2012/05/17 v0.4b Collect macro arguments as boxes
+\collectedbox=\box98
+)
+\tc@llx=\dimen175
+\tc@lly=\dimen176
+\tc@urx=\dimen177
+\tc@ury=\dimen178
+Package trimclip Info: Using driver 'tc-pdftex.def'.
+ (C:\Users\User\AppData\Local\Programs\MiKTeX\tex/latex/adjustbox\tc-pdftex.def
+File: tc-pdftex.def 2019/01/04 v2.2 Clipping driver for pdftex
+))
+\adjbox@Width=\dimen179
+\adjbox@Height=\dimen180
+\adjbox@Depth=\dimen181
+\adjbox@Totalheight=\dimen182
+\adjbox@pwidth=\dimen183
+\adjbox@pheight=\dimen184
+\adjbox@pdepth=\dimen185
+\adjbox@ptotalheight=\dimen186
+ (C:\Users\User\AppData\Local\Programs\MiKTeX\tex/latex/ifoddpage\ifoddpage.sty
+Package: ifoddpage 2016/04/23 v1.1 Conditionals for odd/even page detection
+\c@checkoddpage=\count282
+) (C:\Users\User\AppData\Local\Programs\MiKTeX\tex/latex/varwidth\varwidth.sty
+Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
+\@vwid@box=\box99
+\sift@deathcycles=\count283
+\@vwid@loff=\dimen187
+\@vwid@roff=\dimen188
+)) (C:\Users\User\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
+ (C:\Users\User\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+ (C:\Users\User\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex.sty
+Package: iftex 2022/02/03 v1.0f TeX engine tests
+))
+\Gm@cnth=\count284
+\Gm@cntv=\count285
+\c@Gm@tempcnt=\count286
+\Gm@bindingoffset=\dimen189
+\Gm@wd@mp=\dimen190
+\Gm@odd@mp=\dimen191
+\Gm@even@mp=\dimen192
+\Gm@layoutwidth=\dimen193
+\Gm@layoutheight=\dimen194
+\Gm@layouthoffset=\dimen195
+\Gm@layoutvoffset=\dimen196
+\Gm@dimlist=\toks21
+ (C:\Users\User\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.cfg))
+\c@exer=\count287
+ (C:\Users\User\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
+File: l3backend-pdftex.def 2022-02-07 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count288
+\l__pdf_internal_box=\box100
+) (main.aux)
+\openout1 = `main.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+ (C:\Users\User\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count289
+\scratchdimen=\dimen197
+\scratchbox=\box101
+\nofMPsegments=\count290
+\nofMParguments=\count291
+\everyMPshowfont=\toks22
+\MPscratchCnt=\count292
+\MPscratchDim=\dimen198
+\MPnumerator=\count293
+\makeMPintoPDFobject=\count294
+\everyMPtoPDFconversion=\toks23
+) (C:\Users\User\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
+ (C:\Users\User\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
+))
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: End \AtBeginDocument code.
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: <default>
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(71.13188pt, 472.03123pt, 71.13188pt)
+* v-part:(T,H,B)=(71.13188pt, 652.70622pt, 71.13188pt)
+* \paperwidth=614.295pt
+* \paperheight=794.96999pt
+* \textwidth=472.03123pt
+* \textheight=652.70622pt
+* \oddsidemargin=-1.1381pt
+* \evensidemargin=-1.1381pt
+* \topmargin=-31.2056pt
+* \headheight=12.0pt
+* \headsep=18.06749pt
+* \topskip=10.0pt
+* \footskip=25.29494pt
+* \marginparwidth=69.0pt
+* \marginparsep=7.0pt
+* \columnsep=10.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+Chapter 1.
+<./picture//gambar_solusi_No.3.PNG, id=1, 434.8245pt x 199.34476pt>
+File: ./picture//gambar_solusi_No.3.PNG Graphic file (type png)
+<use ./picture//gambar_solusi_No.3.PNG>
+Package pdftex.def Info: ./picture//gambar_solusi_No.3.PNG  used on input line 80.
+(pdftex.def)             Requested size: 424.82523pt x 194.76337pt.
+[1
+
+
+{C:/Users/User/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
+<./picture//gambar_solusi_No.4.PNG, id=12, 434.22224pt x 204.765pt>
+File: ./picture//gambar_solusi_No.4.PNG Graphic file (type png)
+<use ./picture//gambar_solusi_No.4.PNG>
+Package pdftex.def Info: ./picture//gambar_solusi_No.4.PNG  used on input line 100.
+(pdftex.def)             Requested size: 424.82523pt x 200.33398pt.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 122.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 122.
+ [2 <./picture//gambar_solusi_No.3.PNG> <./picture//gambar_solusi_No.4.PNG>]
+<./picture//gbr_solusi_1_5.jpg, id=19, 522.0303pt x 243.7908pt>
+File: ./picture//gbr_solusi_1_5.jpg Graphic file (type jpg)
+<use ./picture//gbr_solusi_1_5.jpg>
+Package pdftex.def Info: ./picture//gbr_solusi_1_5.jpg  used on input line 157.
+(pdftex.def)             Requested size: 424.82523pt x 198.40317pt.
+ [3 <./picture//gbr_solusi_1_5.jpg>]
+<./picture//gbr_solusi_1_6.jpg, id=23, 522.0303pt x 243.7908pt>
+File: ./picture//gbr_solusi_1_6.jpg Graphic file (type jpg)
+<use ./picture//gbr_solusi_1_6.jpg>
+Package pdftex.def Info: ./picture//gbr_solusi_1_6.jpg  used on input line 189.
+(pdftex.def)             Requested size: 424.82523pt x 198.40317pt.
+<./picture//gbr_solusi_1_7.jpg, id=24, 522.0303pt x 289.08pt>
+File: ./picture//gbr_solusi_1_7.jpg Graphic file (type jpg)
+<use ./picture//gbr_solusi_1_7.jpg>
+Package pdftex.def Info: ./picture//gbr_solusi_1_7.jpg  used on input line 221.
+(pdftex.def)             Requested size: 424.82523pt x 235.26067pt.
+ [4 <./picture//gbr_solusi_1_6.jpg>]
+File: ./picture//gbr_solusi_1_7.jpg Graphic file (type jpg)
+<use ./picture//gbr_solusi_1_7.jpg>
+Package pdftex.def Info: ./picture//gbr_solusi_1_7.jpg  used on input line 253.
+(pdftex.def)             Requested size: 424.82523pt x 235.26067pt.
+ [5 <./picture//gbr_solusi_1_7.jpg>] [6] [7]
+Chapter 2.
+<picture/figure-5.2.png, id=39, 459.21562pt x 268.00125pt>
+File: picture/figure-5.2.png Graphic file (type png)
+<use picture/figure-5.2.png>
+Package pdftex.def Info: picture/figure-5.2.png  used on input line 498.
+(pdftex.def)             Requested size: 424.82523pt x 247.94225pt.
+[8
+
+] [9 <./picture/figure-5.2.png>] [10]
+Chapter 3.
+[11
+
+] [12]
+<./picture//soal12.png, id=60, 521.69907pt x 158.84344pt>
+File: ./picture//soal12.png Graphic file (type png)
+<use ./picture//soal12.png>
+Package pdftex.def Info: ./picture//soal12.png  used on input line 818.
+(pdftex.def)             Requested size: 424.82523pt x 129.34839pt.
+<./picture//solusi12.png, id=61, 539.76656pt x 140.77594pt>
+File: ./picture//solusi12.png Graphic file (type png)
+<use ./picture//solusi12.png>
+Package pdftex.def Info: ./picture//solusi12.png  used on input line 827.
+(pdftex.def)             Requested size: 424.82523pt x 110.79932pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[13 <./picture//soal12.png>]
+<./picture//soal13.png, id=67, 664.73344pt x 146.79843pt>
+File: ./picture//soal13.png Graphic file (type png)
+<use ./picture//soal13.png>
+Package pdftex.def Info: ./picture//soal13.png  used on input line 839.
+(pdftex.def)             Requested size: 424.82523pt x 93.81851pt.
+<./picture//solusi13.png, id=68, 532.23843pt x 136.25906pt>
+File: ./picture//solusi13.png Graphic file (type png)
+<use ./picture//solusi13.png>
+Package pdftex.def Info: ./picture//solusi13.png  used on input line 851.
+(pdftex.def)             Requested size: 424.82523pt x 108.76204pt.
+<./picture//figure6.23.png, id=69, 690.32906pt x 281.55188pt>
+File: ./picture//figure6.23.png Graphic file (type png)
+<use ./picture//figure6.23.png>
+Package pdftex.def Info: ./picture//figure6.23.png  used on input line 871.
+(pdftex.def)             Requested size: 424.82523pt x 173.26721pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[14 <./picture//solusi12.png> <./picture//soal13.png> <./picture//solusi13.png>] [15 <./picture//figure6.23.png>] [16] (main.aux) ) 
+Here is how much of TeX's memory you used:
+ 5703 strings out of 478582
+ 100393 string characters out of 2844817
+ 403861 words of memory out of 3000000
+ 23831 multiletter control sequences out of 15000+600000
+ 471891 words of font info for 36 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 67i,12n,80p,474b,389s stack positions out of 10000i,1000n,20000p,200000b,80000s
+ <C:\Users\User\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1000.pk> <C:\Users\User\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcti1000.pk><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsl10.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb>
+Output written on main.pdf (16 pages, 2045453 bytes).
+PDF statistics:
+ 130 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 56 words of extra memory for PDF output out of 10000 (max. 10000000)
+
