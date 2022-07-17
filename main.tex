@@ -575,43 +575,60 @@ adalah nilai r. Oleh karena itu, kami menggunakan rumus r = log$_2$L untuk setia
 
 \vspace{12pt}
 
-% Farhan Ghulam  9-12
+% Farhan Ghulam Hadi Saputra 9-12
 \begin{exercise}
-  Contoh soal 9
+  Sebuah perusahaan memiliki media dengan bandwidth I-MHz (lowpass). Korporasi perlu membuat 10 saluran independen terpisah yang masing-masing mampu mengirim setidaknya 10Mbps. Perusahaan telah memutuskan untuk menggunakan teknologi QAM. Berapa minimal? jumlah bit per baud untuk setiap saluran? Berapa jumlah poin dalam diagram konstelasi untuk setiap saluran? Misalkan d = O.
 \end{exercise}
 
 \begin{solution}
-  Contoh solusi
+  Pertama, kami menghitung bandwidth untuk setiap saluran = (1 MHz) / 10 = 100 KHz. Kita kemudian cari nilai r untuk setiap saluran: B = (1 + d) × (1/r) × (N) → r = N / B → r = (1 Mbps/100 KHz) = 10 Kita kemudian dapat menghitung jumlah level: L = 2r = 210 = 1024. Ini berarti bahwa bahwa kita memerlukan teknik 1024-QAM untuk mencapai kecepatan data ini.
 \end{solution}
 
 \vspace{12pt}
 
 \begin{exercise}
-  Contoh soal
+  Sebuah perusahaan kabel menggunakan salah satu saluran TV kabel (dengan bandwidth 6 MHz) untuk menyediakan komunikasi digital untuk setiap penduduk. Berapa kecepatan data yang tersedia? untuk setiap penduduk apakah perusahaan menggunakan teknik 64-QAM?
 \end{exercise}
 
 \begin{solution}
-  Contoh solusi
+  Kita dapat menggunakan rumus: N = [1/(1 + d)] × r × B = 1 × 6 × 6 MHz = 36 Mbps
 \end{solution}
 
 \vspace{12pt}
 
 \begin{exercise}
-  Contoh soal
+  Temukan bandwidth untuk situasi berikut jika kita perlu memodulasi 5-KHz suara.
+  \begin{itemize}
+    \item[a.] AM
+    \item[b.] PM (set $ \beta$=5)
+    \item[c.] PM (set $ \beta$=1)
+    \end{itemize}
 \end{exercise}
 
 \begin{solution}
-  Contoh solusi
+ \begin{itemize}
+    \item[a.] $ B_{AM} $ = 2 × B = 2 × 5 = 10 KHz
+    \item[b.] $ B_{FM} $ = 2 × (1 + $\beta$) × B = 2 × (1 + 5) × 5 = 60 KHz
+    \item[c.] $ B_{PM} $ = 2 × (1 + $\beta$) × B = 2 × (1 + 1) × 5 = 20 KHz
+    \end{itemize}
 \end{solution}
 
 \vspace{12pt}
 
 \begin{exercise}
-  Contoh soal
+  Temukan jumlah total saluran di pita yang sesuai yang dialokasikan oleh FCC.
+\begin{itemize}
+    \item[a.] AM
+    \item[b.] FM
+    \end{itemize}
 \end{exercise}
 
 \begin{solution}
-  Contoh solusi
+  Kami menghitung jumlah saluran, bukan jumlah stasiun yang hidup berdampingan
+  \begin{itemize}
+    \item[a.] n = (1700 - 530) KHz / 10 KHz = 117
+    \item[b.] n = (108 - 88) MHz / 200 KHz = 100
+    \end{itemize}
 \end{solution}
 
 \chapter{Bandwidth Utilization: Multiplexing and Spreading}
